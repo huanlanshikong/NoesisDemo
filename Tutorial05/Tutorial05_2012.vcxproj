@@ -346,12 +346,14 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="Renderers\D3D11\D3D11RenderDevice.cpp" />
+    <ClCompile Include="TitleItem.cpp" />
     <ClCompile Include="Tutorial05.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
     <ClInclude Include="Renderers\D3D11\D3D11RenderDevice.h" />
     <CLInclude Include="resource.h" />
+    <ClInclude Include="TitleItem.h" />
     <ResourceCompile Include="Tutorial05.rc" />
   </ItemGroup>
   <ItemGroup>

@@ -1,4 +1,5 @@
 #include <NoesisGUI.h>
+#include <vector>
 
 class MyNsTest : public Noesis::Grid
 {
@@ -10,4 +11,9 @@ public:
 	{
 		NsMeta<Noesis::TypeId>("MyNsTest");
 	}
+
+private:
+	void bindData();
+	std::vector<std::string> titleItems;
+	std::string item;
 };
