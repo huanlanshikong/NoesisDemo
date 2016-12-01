@@ -16,4 +16,5 @@ private:
 	void bindData();
 	std::vector<std::string> titleItems;
 	std::string item;
+	Noesis::Gui::StackPanel* itemRoot;
 };
